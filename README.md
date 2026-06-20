@@ -35,17 +35,17 @@ Before disease detection, MRI scans are normalised using **acquisition-aware met
 
 By accounting for scanner hardware, field strength, pulse sequences, and imaging protocols, we aim to create representations that remain consistent across hospitals and imaging centres — solving the generalisation problem at its root.
 
-### 2. 🏗️ Shared Foundation Model for Brain MRI
+### 2. Shared Foundation Model for Brain MRI
 
 A large self-supervised backbone learns general representations of brain structure from diverse MRI datasets.
 
 Rather than training separate models from scratch for every disease, Neuvara uses a **shared representation** that captures anatomy, morphology, and pathological variation across populations.
 
-### 3. 🎯 Disease-Specific Intelligence
+### 3. Disease-Specific Intelligence
 
 Lightweight disease-specific models build on top of the shared backbone, enabling **effective learning even with limited labelled data** — critical for rare conditions where large annotated datasets simply don't exist.
 
-### 4. 🔍 Similarity-Based Clinical Reasoning
+### 4. Similarity-Based Clinical Reasoning
 
 For unusual presentations or diseases not yet fully represented in training data, Neuvara can retrieve structurally similar confirmed cases from a reference database.
 
@@ -82,11 +82,11 @@ Clinical adoption requires transparency. Neuvara integrates explainable AI techn
 
 Neuvara is being built as a **platform for physics-informed neuroimaging AI**, with applications across:
 
-- 🧬 Rare disease diagnosis
-- ⚡ Epilepsy lesion detection
-- 📉 Neurodegenerative disease screening
-- 🔪 Surgical planning support
-- 🏥 Multi-centre clinical decision support
+- Rare disease diagnosis
+- Epilepsy lesion detection
+- Neurodegenerative disease screening
+- Surgical planning support
+- Multi-centre clinical decision support
 
 ---
 
