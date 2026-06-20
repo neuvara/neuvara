@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 Neuvara
+# Neuvara
 
 **Physics-informed AI for neurological disease diagnosis from brain MRI**
 
@@ -29,7 +29,7 @@ Patients with rare neurological diseases often spend **years** searching for a c
 
 ## Our Approach
 
-### 1. 🔬 Physics-Informed MRI Harmonisation
+### 1. Physics-Informed MRI Harmonisation
 
 Before disease detection, MRI scans are normalised using **acquisition-aware methods grounded in MRI physics**.
 
